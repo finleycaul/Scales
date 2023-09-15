@@ -5,7 +5,6 @@ void setup(){
 
 void draw() {
   background(#FFD3F7);
-System.out.println(mouseX + " " + mouseY);
   for(int y= 50; y<1000; y+=100)
     for(int x=50;x<1000; x+=100)
       banana(x,y);
